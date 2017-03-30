@@ -1,0 +1,217 @@
+#list p, h1 {
+    text-align: center;
+}
+#list p::after, h1::after { 
+    content: "";
+    display: block;
+    width: 50%;
+    border: 1px groove #fff;
+    height: 0;
+    margin: 0 auto;
+}
+#list p::after{
+    content: "";
+    display: block;
+    width: 50%;
+    border: 1px groove #fff;
+    height: 0;
+    margin: 0 auto;
+}
+
+a:link {
+    color: inherit;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:visited {
+     color: #fff
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover{
+background-color: inherit;
+    color:  inherit;
+    text-decoration: none;
+}
+
+a:active {
+    color: #fff
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+p {
+    color:black;
+    font-family:calibri;
+    
+}
+
+body{
+    background-image:url());
+}
+
+
+#banner{
+    width:1350px;
+    height:844px;
+    border-width: 4px;
+    border-bottom-style:inset;
+    background-image: url("C:/Users/Client/Desktop/things/Website/number4.jpg");
+    background-repeat: no-repeat;
+    margin-left: -5px;
+    margin-top: -5px;
+}
+
+h1 {
+    color: #80ced6;
+    border-bottom-color: #618685;
+    border-bottom-style:double;
+    border-bottom-width: medium;
+    margin-left: 555px;
+    padding-top: 187px; 
+    width: 544px;
+    font-size: 55px;
+}
+
+li {
+    display:inline;
+    float:left;
+    text-align:center;
+    margin:5px;
+    padding:5px;
+}
+
+li:hover{
+    background-color: white;
+    color:  #ff8080;
+}
+
+
+
+#Header {
+
+}
+
+#content {
+    margin-top: 120px;
+    margin-left: 120px;
+    height: auto;
+    width: 580;
+    background-color: bisque;
+    text-align: center;
+}
+
+#content:hover{
+    background-image: url(http://www.planwallpaper.com/static/images/Fall-wallpaper-1366x768-HD-wallpaper.jpg);
+}
+
+
+#sidemenu {
+    text-align: right;
+    float: right;
+    width: 150px;
+    height:250px;
+    background-color:aquamarine;
+    margin-top: -197px;
+    margin-right: 147px;
+}
+
+#bannerul {
+    list-style-type: none;
+    margin-top: 5px;
+    margin: 5px;
+    padding: 5px;
+    align-items: center;
+    float: right;
+    text-align: center;
+    color:white;
+}
+
+#sideul {
+     list-style-type: none;
+    margin-top: 8px;
+    margin: 5px;
+    padding: 15px;
+    align-items: right;
+    float: right;
+}
+
+#logo {
+    float: left;
+    height: 44px;
+    width: 98px;
+}
+
+.border {
+    background-color: #ff8080;
+    margin-right: 55px;
+    font-size: 17;
+    padding: 15px;
+    padding-right: 19px;
+    margin-bottom: -15px;
+    letter-spacing: 5px;
+    font-family: "times new roman";
+}
+
+#Slogan {
+    color:white;
+    font-family: cursive;
+    font-size: 45;
+    float:right;
+    margin-top: 155px;
+    margin-left: 355px;
+    margin-right: 15px;
+    font-family: "calibri";
+}
+
+#Slogan2 {
+    color:white;
+    font-family: cursive;
+    font-size: 45;
+    float:right;
+    margin-top: 5px;
+    margin-left: 355px;
+    margin-right: 195px;
+    font-family: "calibri";
+}
+
+#Body {
+    height:900px;
+    width:1350;
+    background-color: #ff8080;
+    background-repeat: no-repeat;
+    opacity: 0.7;
+    image-orientation: center;
+    margin: 0px;
+}
+
+#Bannerpic {
+    width:55px;
+    height:55px;
+}
+
+#Better {
+    list-style-type: none;
+    width: 1350px;
+    height: 15px;
+    margin-left: 155px;
+    letter-spacing: 5px;
+}
+
+.Border {
+    padding-left: 55px;
+}
+
+#Border {
+    margin-left: 55px;
+    color: white;
+    text-align: center;
+    border-bottom-style: double;
+    border-bottom-color: white;
+}
+
+#Paragraph {
+    display: inline;
+}
